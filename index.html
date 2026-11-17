@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Occaz'In – comparez les annonces par produit</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <header class="top">
@@ -13,7 +13,7 @@
     <input id="q" type="search" placeholder="Nom du produit ou code-barres (EAN)…" aria-label="Recherche">
     <button type="submit">Rechercher</button>
   </form>
-  <button id="sellBtn" class="cta" type="button">+ Déposer une annonce</button>
+  <button id="sellBtn" class="cta" type="button">+ <span class="long">Déposer une annonce</span><span class="short">Vendre</span></button>
 </header>
 
 <main id="view"></main>
@@ -54,6 +54,6 @@
 </dialog>
 
 <div id="toast" role="status"></div>
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>
